@@ -9,7 +9,7 @@
     input_user = gets.strip
     index = input_to_index(input_user)
      if valid_move?(board, index)
-       move(board, index, player_1)
+       move(board, index, player_1 = "X")
      else
        turn(board)
 
